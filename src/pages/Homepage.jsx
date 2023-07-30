@@ -207,7 +207,7 @@ function Homepage() {
           ></input>
         </div>
 
-        <div className="rounded-[10px] relative z-[10] text-white ">
+        <div className=" relative z-[10] text-white ">
           <div className=" flex  gap-4 flex-col p-6 bottom-0 z-[10] relative">
             <span className="text-[1.5rem]">
               Do you also want to work through Automation ?{" "}
