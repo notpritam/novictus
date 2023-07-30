@@ -29,10 +29,10 @@ function Homepage() {
   return (
     <>
       <header className="z-[999] flex justify-between w-full fixed top-0 pt-[40px] pb-[40px] pl-[20px] pr-[20px]">
-        <div className="w-full h-full opacity-20 absolute top-0 left-0 right-0 z-[991] bg-black"></div>
-        <img src={logo}></img>
+        <div className="w-full h-full opacity-20 absolute top-0 left-0 right-0 z-[991] bg-background"></div>
+        <img className="z-[999] relative" src={logo}></img>
 
-        <div className="w-[48px] h-[48px] flex justify-center items-center rounded-[24px] bg-accentColor">
+        <div className="w-[48px] z-[999] relative h-[48px] flex justify-center items-center rounded-[24px] bg-accentColor">
           <img className="w-[32px] h-[32px]" src={menu}></img>
         </div>
       </header>
@@ -56,15 +56,11 @@ function Homepage() {
           </div>
         </div>
         <div className="w-full h-full absolute">
-          <video
-            className="object-cover w-full h-full"
-            autoPlay={true}
-            loop={true}
-          >
+          <video className="object-cover w-full h-full" autoPlay muted loop>
             <source
-              type="video/mp4"
-              src="https://assets.website-files.com/63c14b114de50217aacbf7b2/63c15d7aa5c1d46f3f62fe1a_Final%2003-transcode.mp4"
-            ></source>
+              src="https://assets.website-files.com/63c14b114de50217aacbf7b2/63c15d7aa5c1d46f3f62fe1a_Final%2003-transcode.webm"
+              type="video/webm"
+            />
           </video>
         </div>
       </div>
