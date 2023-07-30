@@ -39,7 +39,7 @@ function Homepage() {
       <div className="w-screen h-screen relative bg-transparent flex justify-center items-center text-white">
         <div className="bg-black opacity-40 w-full h-full absolute top-0 bottom-0 left-0 right-0 z-10"></div>
         <div className="relative z-[12] flex flex-col gap-2 p-[20px]  bg-transparent">
-          <h1 className="text-[40px] text-white font-thin">
+          <h1 className="text-[40px] md:text-[6rem] text-white font-thin">
             We value <br />
             your time
           </h1>
@@ -69,19 +69,58 @@ function Homepage() {
       <div className="pl-[20px] w-full pr-[20px] flex flex-col gap-6 mt-6">
         <span className="text-[18px]">Organizations that trust us:</span>
         <div className="flex flex-nowrap overflow-hidden gap-12">
-          <img src={c1} className="h-[15vw] max-h-[25vw] " />
-          <img src={c2} className="h-[15vw] max-h-[25vw] " />
-          <img src={c3} className="h-[15vw] max-h-[25vw] " />
-          <img src={c4} className="h-[15vw] max-h-[25vw] " />
-          <img src={c5} className="h-[15vw] max-h-[25vw] " />
-          <img src={c6} className="h-[15vw] max-h-[25vw] " />
-          <img src={c7} className="h-[15vw] max-h-[25vw] " />
-          <img src={c8} className="h-[15vw] max-h-[25vw] " />
-          <img src={c9} className="h-[15vw] max-h-[25vw] " />
-          <img src={c10} className="h-[15vw] max-h-[25vw] " />
-          <img src={c11} className="h-[15vw] max-h-[25vw] " />
-          <img src={c12} className="h-[15vw] max-h-[25vw] " />
-          <img src={c13} className="h-[15vw] max-h-[25vw] " />
+          <img
+            src={c1}
+            className="h-[15vw] md:h-[6vw] md:max-h-[10vw] max-h-[25vw] "
+          />
+          <img
+            src={c2}
+            className="h-[15vw] md:h-[6vw] md:max-h-[10vw]  max-h-[25vw] "
+          />
+          <img
+            src={c3}
+            className="h-[15vw]  md:h-[6vw] md:max-h-[10vw] max-h-[25vw] "
+          />
+          <img
+            src={c4}
+            className="h-[15vw]  md:h-[6vw] md:max-h-[10vw] max-h-[25vw] "
+          />
+          <img
+            src={c5}
+            className="h-[15vw] md:h-[6vw] md:max-h-[10vw]  max-h-[25vw] "
+          />
+          <img
+            src={c6}
+            className="h-[15vw] md:h-[6vw] md:max-h-[10vw]  max-h-[25vw] "
+          />
+          <img
+            src={c7}
+            className="h-[15vw] md:h-[6vw] md:max-h-[10vw] max-h-[25vw] "
+          />
+          <img
+            src={c8}
+            className="h-[15vw]  md:h-[6vw] md:max-h-[10vw] max-h-[25vw] "
+          />
+          <img
+            src={c9}
+            className="h-[15vw]  md:h-[6vw] md:max-h-[10vw] max-h-[25vw] "
+          />
+          <img
+            src={c10}
+            className="h-[15vw] md:h-[6vw] md:max-h-[10vw]  max-h-[25vw] "
+          />
+          <img
+            src={c11}
+            className="h-[15vw]  md:h-[6vw] md:max-h-[10vw] max-h-[25vw] "
+          />
+          <img
+            src={c12}
+            className="h-[15vw] md:h-[6vw] md:max-h-[10vw]  max-h-[25vw] "
+          />
+          <img
+            src={c13}
+            className="h-[15vw]  md:h-[6vw] md:max-h-[10vw] max-h-[25vw] "
+          />
         </div>
       </div>
 
@@ -93,7 +132,7 @@ function Homepage() {
           </div>
 
           <div className="flex items-center justify-center">
-            <span className="_gradientText text-[1.5rem] text-center">
+            <span className="_gradientText text-[1.5rem] md:text-[2.5rem] text-center">
               Automation is combination between organization , processes and
               technology.
             </span>
@@ -102,7 +141,7 @@ function Homepage() {
       </div>
 
       <div className="pl-[20px] pr-[20px] mt-12 mb-12">
-        <div className="w-full relative">
+        <div className="w-full relative flex justify-center items-center">
           <img src={settings}></img>
           <img className="absolute h-[50px] _center" src={novi}></img>
         </div>
@@ -110,7 +149,7 @@ function Homepage() {
         <div className="mt-12">
           <div className="flex bg-background flex-col top-[20%] gap-4 p-[64px] border-t-[1px] border-white sticky">
             <img src={scan} className="h-[56px] w-[56px]"></img>
-            <span className="text-[20px]">Scan & Optimise</span>
+            <span className="text-[20px] md:text-[2rem]">Scan & Optimise</span>
             <span className="text-[18px]">
               Our scan & optimize service offers your organization the research
               and advice necessary for an optimal automation approach and
@@ -121,9 +160,10 @@ function Homepage() {
               <img src={arrow}></img>
             </div>
           </div>
+
           <div className="flex bg-background flex-col top-[20%] gap-4 p-[64px] border-t-[1px] border-white sticky">
             <img src={scan} className="h-[56px] w-[56px]"></img>
-            <span className="text-[20px]">Scan & Optimise</span>
+            <span className="text-[20px] md:text-[2rem]">Scan & Optimise</span>
             <span className="text-[18px]">
               Our scan & optimize service offers your organization the research
               and advice necessary for an optimal automation approach and
@@ -134,9 +174,10 @@ function Homepage() {
               <img src={arrow}></img>
             </div>
           </div>
-          <div className="flex flex-col  bg-background top-[20%] gap-4 p-[64px] border-t-[1px] border-white sticky">
+
+          <div className="flex bg-background flex-col top-[20%] gap-4 p-[64px] border-t-[1px] border-white sticky">
             <img src={scan} className="h-[56px] w-[56px]"></img>
-            <span className="text-[20px]">Scan & Optimise</span>
+            <span className="text-[20px] md:text-[2rem]">Scan & Optimise</span>
             <span className="text-[18px]">
               Our scan & optimize service offers your organization the research
               and advice necessary for an optimal automation approach and
@@ -151,14 +192,19 @@ function Homepage() {
       </div>
 
       <div className="ml-[20px] mr-[20px] border-b-[1px] mb-12 border-white">
-        <div className="flex  flex-col gap-6 mt-12 mb-12">
-          <div className="flex gap-4 items-center  text-[12px] uppercase">
-            <div className="h-[8px] w-[8px] bg-green-400 rounded-[50%]"></div>
-            <span>OUR Partners</span>
+        <div className="flex  flex-col md:flex-row gap-6 md:gap-12 mt-12 mb-12">
+          <div className="flex-[2]">
+            <div className="flex gap-4 items-center  text-[12px] uppercase">
+              <div className="h-[8px] w-[8px] bg-green-400 rounded-[50%]"></div>
+              <span>OUR Partners</span>
+            </div>
+            <span className="text-[1.25rem] md:block hidden">
+              Samen Sterker
+            </span>
           </div>
 
-          <div className="flex flex-col gap-8">
-            <span className="text-[1.25rem]">Samen Sterker</span>
+          <div className="flex flex-[6] flex-col gap-8">
+            <span className="text-[1.25rem] md:hidden">Samen Sterker</span>
             <span className="text-[1.25rem]">
               Thanks to our collaborations with leading Automation partners,
               there is always a suitable solution for your organization.
@@ -181,14 +227,16 @@ function Homepage() {
           <div className="h-[8px] w-[8px] bg-green-400 rounded-[50%]"></div>
           <span>Blog</span>
         </div>
-        <div className="mt-4 flex flex-col justify-between gap-4">
-          <span className="text-[20px]">Case studies & meer</span>
+        <div className="mt-4 flex flex-col md:flex-row justify-between gap-4">
+          <span className="text-[1.25rem] md:text-[2rem] ">
+            Case studies & meer
+          </span>
           <div className="flex">
             <Button borders={true} link={"/"} text={"More posts"} />
           </div>
         </div>
 
-        <div className="grid grid-cols-1">
+        <div className="grid grid-cols-1 md:grid-cols-2">
           <BlogCard />
           <BlogCard />
           <BlogCard />
