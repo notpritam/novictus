@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         accentColor: "#a259ff",
-        background: "#263244",
+        background: "#263243",
         footerColor: "rgba(243, 242, 255, .75)",
       },
       fontFamily: {

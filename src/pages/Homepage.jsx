@@ -28,7 +28,7 @@ import BlogCard from "../components/blogCard";
 function Homepage() {
   return (
     <>
-      <header className="z-[999] flex justify-between w-full fixed top-0 pt-[40px] pb-[40px] pl-[20px] pr-[20px]">
+      <header className="_blur z-[999] flex justify-between w-full fixed top-0 pt-[40px] pb-[40px] pl-[20px] pr-[20px]">
         <div className="w-full h-full opacity-20 absolute top-0 left-0 right-0 z-[991] bg-background"></div>
         <img className="z-[999] relative" src={logo}></img>
 
@@ -62,6 +62,7 @@ function Homepage() {
               type="video/webm"
             />
           </video>
+          <div className="_gradientBackground h-[40%] absolute bottom-[-2px] w-full"></div>
         </div>
       </div>
 
