@@ -6,6 +6,7 @@ export default {
       colors: {
         accentColor: "#a259ff",
         background: "#263244",
+        footerColor: "rgba(243, 242, 255, .75)",
       },
       fontFamily: {
         generalSans: ["Generalsans", "sans-serif"],

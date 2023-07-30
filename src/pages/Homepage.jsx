@@ -21,6 +21,8 @@ import novi from "../assets/img/svg/novi360.svg";
 import scan from "../assets/img/svg/search.svg";
 import arrow from "../assets/img/svg/arrow.svg";
 import bgFooter from "../assets/img/svg/bgFooter.svg";
+import linkdein from "../assets/img/svg/linkdein.svg";
+import footerBrand from "../assets/img/svg/footerLogo.svg";
 import BlogCard from "../components/blogCard";
 
 function Homepage() {
@@ -58,8 +60,12 @@ function Homepage() {
             className="object-cover w-full h-full"
             autoPlay={true}
             loop={true}
-            src="https://assets.website-files.com/63c14b114de50217aacbf7b2/63c15d7aa5c1d46f3f62fe1a_Final%2003-transcode.mp4"
-          ></video>
+          >
+            <source
+              type="video/mp4"
+              src="https://assets.website-files.com/63c14b114de50217aacbf7b2/63c15d7aa5c1d46f3f62fe1a_Final%2003-transcode.mp4"
+            ></source>
+          </video>
         </div>
       </div>
 
@@ -193,7 +199,7 @@ function Homepage() {
         </div>
       </div>
 
-      <div className="w-full pb-12 pl-[20px] pr-[20px] flex flex-col justify-center items-center bg-[#f3f2ff] text-background">
+      <div className="w-full pb-24 pl-[20px] pr-[20px] flex flex-col justify-center items-center bg-[#f3f2ff] text-background">
         <div className="flex w-[80%] items-center justify-center flex-col gap-4 mt-12 mb-12">
           <span className="text-[2rem] text-center">
             Report you on for the newsletter
@@ -206,8 +212,10 @@ function Homepage() {
             placeholder="Email address"
           ></input>
         </div>
+      </div>
 
-        <div className=" relative z-[10] text-white ">
+      <footer className="relative">
+        <div className="relative translate-y-[-50%] ml-[20px] mr-[20px] z-[10] text-white ">
           <div className=" flex  gap-4 flex-col p-6 bottom-0 z-[10] relative">
             <span className="text-[1.5rem]">
               Do you also want to work through Automation ?{" "}
@@ -223,7 +231,42 @@ function Homepage() {
             src={bgFooter}
           ></img>
         </div>
-      </div>
+
+        <div className="pl-[20px] pr-[20px] text-[18px]">
+          <div className="flex items-start flex-col gap-4 border-b-[1px] border-white pb-12 mb-6">
+            <img className="h-[2rem]" src={logo}></img>
+            <div className="flex gap-4 flex-col">
+              <span>Address</span>
+              <div className="flex flex-col gap-2">
+                <span>Hanselane 342B </span>
+                <span>8017 JL Zwolle</span>
+              </div>
+            </div>
+            <div className="flex gap-4 flex-col">
+              <span>Contact</span>
+              <div className="flex flex-col gap-2">
+                <span>notpritamsharma@gmail.com </span>
+                <span>+ 31 ( 0 ) 572 85 61 51</span>
+              </div>
+            </div>
+            <img className="h-[2rem]" src={linkdein}></img>
+          </div>
+
+          <div className="text-[0.875rem] flex flex-col gap-4 font-thin mb-4 text-footerColor">
+            <span>Copyright 2023© - Novictus</span>
+            <div className="flex flex-col gap-2">
+              <span>Terms & Conditions</span>
+              <span>Privacy Policy</span>
+              <div className="flex items-center  gap-2">
+                <span>Creation of </span>
+                <div className="border-[1px] border-footerColor pl-[1rem] pr-[1rem] pb-[.5rem] pt-[.5rem] rounded-[30px]">
+                  notpritam
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </>
   );
 }
