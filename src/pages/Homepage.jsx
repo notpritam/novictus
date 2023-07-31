@@ -163,7 +163,7 @@ function Homepage() {
 
       <div className="w-screen m-auto flex justify-center">
         <div className="pl-[20px] max-w-[1440px] pr-[20px] mt-12 mb-12 lg:flex gap-12 items-start ">
-          <div className="w-full relative flex justify-center items-center  top-[30%] lg:sticky lg:p-12 ">
+          <div className="w-full relative flex justify-center items-center lg:top-[30%] lg:sticky lg:p-12 ">
             <img src={settings}></img>
             <img className="absolute h-[50px] _center" src={novi}></img>
           </div>
