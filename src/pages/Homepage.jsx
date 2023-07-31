@@ -260,9 +260,9 @@ function Homepage() {
       </div>
 
       <footer className="relative">
-        <div className="relative translate-y-[-50%] ml-[20px] mr-[20px] z-[10] text-white ">
-          <div className=" flex  gap-4 flex-col p-6 bottom-0 z-[10] relative">
-            <span className="text-[1.5rem]">
+        <div className="relative translate-y-[-50%] ml-[20px] mr-[20px] z-[10] md:min-h-[400px] text-white ">
+          <div className=" flex md:max-w-[50%] gap-4 flex-col p-6 bottom-0 z-[10] relative">
+            <span className="text-[1.5rem] md:text-[2.5rem]">
               Do you also want to work through Automation ?{" "}
             </span>
             <div className="flex">
@@ -280,21 +280,44 @@ function Homepage() {
         <div className="pl-[20px] pr-[20px] text-[18px]">
           <div className="flex items-start flex-col gap-4 border-b-[1px] border-white pb-12 mb-6">
             <img className="h-[2rem]" src={logo}></img>
-            <div className="flex gap-4 flex-col">
-              <span>Address</span>
-              <div className="flex flex-col gap-2">
-                <span>Hanselane 342B </span>
-                <span>8017 JL Zwolle</span>
+
+            <div className="flex w-full justify-between items-center gap-4">
+              <div>
+                <div className="flex gap-4 flex-col">
+                  <span>Address</span>
+                  <div className="flex flex-col gap-2">
+                    <span>Hanselane 342B </span>
+                    <span>8017 JL Zwolle</span>
+                  </div>
+                </div>
+                <div className="flex gap-4 flex-col">
+                  <span>Contact</span>
+                  <div className="flex flex-col gap-2">
+                    <span>notpritamsharma@gmail.com </span>
+                    <span>+ 31 ( 0 ) 572 85 61 51</span>
+                  </div>
+                </div>
+                <img className="h-[2rem]" src={linkdein}></img>
+              </div>
+              <div className="hidden  md:flex flex-col text-[16px]">
+                <span>Services</span>
+                <span>Services</span>
+                <span>Services</span>
+                <span>Services</span>
+              </div>
+              <div className="hidden md:flex flex-col text-[16px]">
+                <span>Services</span>
+                <span>Services</span>
+                <span>Services</span>
+                <span>Services</span>
+              </div>
+              <div className="hidden md:flex flex-col text-[16px]">
+                <span>Services</span>
+                <span>Services</span>
+                <span>Services</span>
+                <span>Services</span>
               </div>
             </div>
-            <div className="flex gap-4 flex-col">
-              <span>Contact</span>
-              <div className="flex flex-col gap-2">
-                <span>notpritamsharma@gmail.com </span>
-                <span>+ 31 ( 0 ) 572 85 61 51</span>
-              </div>
-            </div>
-            <img className="h-[2rem]" src={linkdein}></img>
           </div>
 
           <div className="text-[0.875rem] flex flex-col gap-4 font-thin mb-4 text-footerColor">
