@@ -311,7 +311,7 @@ function Homepage() {
       </div>
 
       <footer className="relative w-screen flex flex-col items-center">
-        <div className="relative max-w-[1440px] w-full translate-y-[-50%] pl-[20px] pr-[20px] z-[10] md:min-h-[400px] lg:min-h-[480px] text-white ">
+        <div className="relative max-w-[1440px] w-[90%] translate-y-[-50%] z-[10] md:min-h-[400px]  lg:min-h-[480px] text-white ">
           <div className=" flex md:max-w-[50%] gap-4 flex-col p-6 bottom-0 z-[10] relative">
             <span className="text-[1.5rem] md:text-[2.5rem]">
               Do you also want to work through Automation ?{" "}
