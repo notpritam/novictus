@@ -314,7 +314,7 @@ function Homepage() {
         <div className="relative max-w-[1440px] w-[90%] translate-y-[-50%] z-[10] md:min-h-[400px]  lg:min-h-[480px] text-white ">
           <div className=" flex md:max-w-[50%] gap-4 flex-col p-6 bottom-0 z-[10] relative">
             <span className="text-[1.5rem] md:text-[2.5rem]">
-              Do you also want to work through Automation ?{" "}
+              Do you also want to work through Automation ?
             </span>
             <div className="flex">
               <button className="bg-accentColor pt-[0.875rem] pb-[0.875rem]  pl-[1.5rem] pr-[1.5rem] text-white rounded-[30px]">
